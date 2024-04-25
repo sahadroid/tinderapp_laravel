@@ -20,17 +20,17 @@
 ![image](https://github.com/sahadroid/tinderapp_laravel/assets/27715383/0b8c1955-50e3-43b7-a51a-bdcaac5a9c9a)
 
 
-
+<br> <br>
 ![image](https://github.com/sahadroid/tinderapp_laravel/assets/27715383/2034184b-6504-4bf4-91dd-3395154f43e8)
 
 
-
+<br> <br>
 ![image](https://github.com/sahadroid/tinderapp_laravel/assets/27715383/ea475274-cf63-47ed-80cc-3e749eab0148)
 
 
-
+<br> <br>
 ![image](https://github.com/sahadroid/tinderapp_laravel/assets/27715383/6a08bf05-101f-4d98-9d85-07d9e4102f27)
 
 
-
+<br> <br>
 ![image](https://github.com/sahadroid/tinderapp_laravel/assets/27715383/ac92b381-2d07-40e7-a83b-ff716d6055a1)
