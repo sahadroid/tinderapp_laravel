@@ -1,0 +1,148 @@
+{
+    "openapi": "3.0.0",
+    "paths": {
+        "/api/people": {
+            "get": {
+                "tags": [
+                    "people"
+                ],
+                "summary": "Get all people",
+                "description": "Returns a list of all people.",
+                "operationId": "48f7032d1333ee6a10b694ad02ce52ef",
+                "responses": {
+                    "200": {
+                        "description": "List of people"
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "people"
+                ],
+                "summary": "Create a new people",
+                "description": "Creates a new people.",
+                "operationId": "624c6fd458c908f0aaa6f36b03ac97cf",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/PeopleRequest"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "New people created"
+                    },
+                    "422": {
+                        "description": "Validation error"
+                    }
+                }
+            }
+        },
+        "/api/people/{id}": {
+            "get": {
+                "tags": [
+                    "people"
+                ],
+                "summary": "Get a specific people",
+                "description": "Returns details of a specific people.",
+                "operationId": "cc37d7c864be7557bb2d8c845fec3d67",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "ID of the people",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Details of the people"
+                    },
+                    "404": {
+                        "description": "Person not found"
+                    }
+                }
+            },
+            "put": {
+                "tags": [
+                    "people"
+                ],
+                "summary": "Update a specific people",
+                "description": "Updates details of a specific people.",
+                "operationId": "b70c32b8efd74cd5427c2722fa878796",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "ID of the people",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/PeopleRequest"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Details of the updated people"
+                    },
+                    "404": {
+                        "description": "People not found"
+                    },
+                    "422": {
+                        "description": "Validation error"
+                    }
+                }
+            },
+            "delete": {
+                "tags": [
+                    "people"
+                ],
+                "summary": "Delete a specific people",
+                "description": "Deletes a specific people.",
+                "operationId": "2ccbbf08d5e8c0a60a6abdb71e73a7a6",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "ID of the people",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "responses": {
+                    "204": {
+                        "description": "People deleted"
+                    },
+                    "404": {
+                        "description": "People not found"
+                    }
+                }
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "people",
+            "description": "Operations related to people"
+        }
+    ]
+}
