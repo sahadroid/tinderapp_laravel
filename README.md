@@ -42,9 +42,9 @@
 
 
 <br> <br>
-#This will run the command every hour.
+#This will run the command every hour.<br>
 <img width="501" alt="Screen Shot 2024-04-26 at 12 05 51" src="https://github.com/sahadroid/tinderapp_laravel/assets/27715383/0f9cc46e-0cf7-4336-9cde-c94622b4eff1">
 
 <br> <br>
-#Cron entry to your server
+#Cron entry to your server<br>
 <img width="824" alt="Screen Shot 2024-04-26 at 12 03 53" src="https://github.com/sahadroid/tinderapp_laravel/assets/27715383/af8f7d54-a553-4f57-aaab-9971aa2c8aa2">
