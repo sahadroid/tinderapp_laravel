@@ -34,3 +34,17 @@
 
 <br> <br>
 ![image](https://github.com/sahadroid/tinderapp_laravel/assets/27715383/ac92b381-2d07-40e7-a83b-ff716d6055a1)
+
+
+
+## Cronjob
+<img width="711" alt="Screen Shot 2024-04-26 at 12 01 40" src="https://github.com/sahadroid/tinderapp_laravel/assets/27715383/e3d63f7c-1cc7-48c0-a7d7-e242e5737958">
+
+
+<br> <br>
+#This will run the command every hour.
+<img width="501" alt="Screen Shot 2024-04-26 at 12 05 51" src="https://github.com/sahadroid/tinderapp_laravel/assets/27715383/0f9cc46e-0cf7-4336-9cde-c94622b4eff1">
+
+<br> <br>
+#Cron entry to your server
+<img width="824" alt="Screen Shot 2024-04-26 at 12 03 53" src="https://github.com/sahadroid/tinderapp_laravel/assets/27715383/af8f7d54-a553-4f57-aaab-9971aa2c8aa2">
