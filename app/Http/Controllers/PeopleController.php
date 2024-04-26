@@ -40,8 +40,20 @@ class PeopleController extends Controller
    */
   public function index(Request $request)
   {
-    $people = People::all();
-    return response()->json($people, Response::HTTP_OK);
+    $peoples = People::withCount(['reviews as picture_like_count' => function ($query) {
+      $query->where('picture', 'like');
+    }, 'reviews as picture_nope_count' => function ($query) {
+      $query->where('picture', 'nope');
+    }])->
+    withCount(['reviews as person_like_count' => function ($query) {
+      $query->where('person', 'like');
+    }, 'reviews as person_unlike_count' => function ($query) {
+      $query->where('person', 'unlike');
+    }])
+    ->get();
+
+    //$people = People::all();
+    return response()->json($peoples, Response::HTTP_OK);
   }
 
 

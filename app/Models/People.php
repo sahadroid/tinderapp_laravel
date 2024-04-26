@@ -9,6 +9,10 @@ class People extends Model
     use HasFactory;
 
     protected $fillable = ['name', 'age', 'picture', 'location'];
+    public function reviews()
+    {
+        return $this->hasMany(Review::class);
+    }	
 }
 
 ?>
