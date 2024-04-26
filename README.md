@@ -25,7 +25,7 @@
 
 
 <br> <br>
-![image](https://github.com/sahadroid/tinderapp_laravel/assets/27715383/c49924f2-0076-4034-a9e2-1cb172120b5c)
+![image](https://github.com/sahadroid/tinderapp_laravel/assets/27715383/94c938fd-6b8a-4033-b274-a8120c0c8654)
 
 
 <br> <br>
